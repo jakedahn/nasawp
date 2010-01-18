@@ -10,7 +10,6 @@
             <div class="nav-right"><?php next_post_link('%link &raquo;') ?></div>
           </div>
           <div id="post-<?= the_id(); ?>" class="post">
-            <?= the_post_thumbnail() ?>
             <h3 class="title"><a href="<?= the_permalink() ?>" title="Permalink to <?= the_title(); ?>" rel="bookmark"><?= the_title(); ?></a></h3>
             <div class="info">
               <span class="date"><?= the_time('F j Y') ?></span>
@@ -31,14 +30,11 @@
             <? } edit_post_link('Edit this entry.','',''); ?>
             </p>
             
-            <div class="postNavigation">
-              <div class="nav-left"><?= previous_post_link('&laquo; %link') ?></div>
-              <div class="nav-right"><?= next_post_link('%link &raquo;') ?></div>
-            </div>
 
             <?= comments_template(); ?>
             
           </div>
+          
         <? endwhile; else :?>
           <div id="post-error" class="post">
             <h3 class="title">Not Found</h3>

@@ -48,6 +48,10 @@ a:hover {
 	float: left;
 }
 
+p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 h1 a {
 	display: block;
 	height: 99px;
@@ -156,6 +160,14 @@ ul#nav a:active {
 	float: left;
 }
 
+#content a {
+	color: #0d6db5;
+}
+
+#content a:hover {
+	color: #118fed;
+}
+
 #left_col {
 	float: left;
 	width: 160px;
@@ -164,8 +176,9 @@ ul#nav a:active {
 
 #posts, #single {
 	float: left;
-	width: 520px;
-	padding: 20px;	
+	width: 500px;
+	padding: 20px;
+	margin-right: 20px;
 }
 
 .post {

@@ -1,1 +1,113 @@
-hai
+/* @override http://looce.com/nasa/wp-content/themes/nasastatic/css/jake.css */
+
+div.postNavigation {
+	float: left;
+	width: 100%;
+	margin-top: 0;
+	margin-bottom: 15px;
+	border-bottom: 1px dotted #999;
+	padding-bottom: 5px;
+}
+
+.nav-left {
+	float: left;
+}
+.nav-right {
+	float: right;
+}
+
+#single .post {
+	margin-bottom: 20px;
+	float: left;
+}
+
+#single-post-footer {
+	font-size: 10px;
+	font-style: italic;
+	color: #999;
+	border-top: 1px dotted #999;
+	border-bottom: 1px dotted #999;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#single-post-footer:hover {
+	color: #444;
+}
+
+
+#comments {
+	float: left;
+	margin-top: 20px;
+	width: 500px;
+}
+
+#comments h3 {
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+#comments ol {
+	float: left;
+	width: 500px;
+}
+
+#comments ol li {
+	float: left;
+	width: 470px;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 20px;
+	padding: 14px;
+	background: #f1f1f1;
+
+}
+
+#comments ol li.alt .comment-info{
+	background: #f1f1f1;
+}
+
+#comments ol li:hover {
+	border-color: #999;
+}
+.comment-metadata {
+	font-size: 10px;
+	font-style: italic;
+	color: #999;
+	float: left;
+}
+
+.comment-text {
+	margin-top: 10px;
+}
+
+#comments ol li img.avatar {
+	float: left;
+	margin-right: 10px;
+	position: relative;
+}
+
+.comment-author {
+	float: left;
+	width: 185px;
+}
+
+em.moderation {
+	color: #999;
+	display: block;
+	margin-top: 15px;
+}
+
+.comment-info {
+	background: rgba(147,206,255,0.09);
+	display: block;
+	float: left;
+	margin-top: -15px;
+	margin-left: -15px;
+	width: 500px;
+}
+
+
+
+
+

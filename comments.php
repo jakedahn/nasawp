@@ -37,10 +37,16 @@
   <? foreach ($comments as $comment) : ?>
     <? if (get_comment_type() == "comment") : ?>
       <li id="comment-<? comment_ID() ?>" class="<?= $oddcomment; ?>">
-        <p class="comment-author"><? comment_author_link() ?></p>
-        <? if ($comment->comment_approved == '0') : ?><em>Your comment is awaiting moderation.</em><? endif; ?>
-        <p class="comment-metadata">Posted <? comment_date('d M Y') ?> at <? comment_time('g:i a') ?> | <a href="#comment-<? comment_ID() ?>" title="Permalink to this comment" rel="permalink">Permalink</a></p>
-        <? comment_text() ?>
+        <div class="comment-info">
+          <?=get_avatar($comment->comment_author_email, 50)?>
+          
+          <p class="comment-author"><? comment_author_link() ?></p>
+          <p class="comment-metadata">Posted <? comment_date('d M Y') ?> at <? comment_time('g:i a') ?> | <a href="#comment-<? comment_ID() ?>" title="Permalink to this comment" rel="permalink">Permalink</a></p>
+        </div>
+        <div class="comment-text">
+          <? comment_text() ?>
+        </div>
+         <? if ($comment->comment_approved == '0') : ?><em class="moderation">Your comment is awaiting moderation.</em><? endif; ?>
       </li>
   <? if ('alt' == $oddcomment) $oddcomment = ''; else $oddcomment = 'alt'; ?>
   <? endif; ?>
