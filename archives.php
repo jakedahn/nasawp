@@ -11,7 +11,7 @@ TEMPLATE NAME: Archives
     <div id="posts">
     <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
       <div id="post-<?php the_ID(); ?>" class="post">
-        <h2 class="post-title"><?php the_title(); ?></h2>
+        <h3 class="post-title"><?php the_title(); ?></h3>
         <div class="post-entry">
           <?php the_content(); ?>
           <h3 style="margin-bottom:0;">By Category</h3>
