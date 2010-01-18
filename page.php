@@ -14,7 +14,6 @@
             <div class="post_text">
               <?= the_content(); ?>
             </div>
-            <h4 class="comments"><?= comments_popup_link('Leave a comment.', '(1) comment.', '(%) comments.'); ?></h4>
           </div>
         <? endwhile; else : ?>
           <div id="post-error" class="post">
