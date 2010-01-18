@@ -1,0 +1,241 @@
+/* @override http://looce.com/nasa/wp-content/themes/nasastatic/style.css */
+
+/*
+Theme Name: NasaWP
+Theme URI: http://www.nasa.gov/
+Description: Simple wordpress theme to ease deployment process for new nasa projects.
+Version: 0.1
+Author: Jake Dahn
+Author URI: http://ang.st
+
+*/
+
+@import url("css/reset.css");
+
+body {
+	background: #000 url(http://www.nasa.gov/templateimages/redesign/global/bg_image.jpg) top left no-repeat;
+	font: 12px/16px Arial, Helvetica, sans-serif;
+	margin: 10px 0 0 0;
+}
+
+a {
+	color: #9CF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 960px;
+	background: url(images/header.gif);
+	float: left;
+}
+
+#header h1, #footer h2 {
+	background: url(images/logo.gif);
+	width: 138px;
+	height: 99px;
+	font-size: 32px;
+	text-indent: -9999px;
+	float: left;
+}
+
+h1 a {
+	display: block;
+	height: 99px;
+}
+ul#nav a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 20px 24px 9px 25px;
+	height: 58px;
+	border-top: 10px solid transparent;
+	margin-top: -10px;
+	font: bold 18px verdana;
+}
+
+ul#nav a:hover {
+	background: url(images/nav_links.png) top left repeat-x ;
+	border-top: 10px solid #0761aa;
+
+}
+
+ul#nav a:active {
+	background: url(images/nav_links.png) bottom;
+	border-top: 10px solid #6089aa;
+}
+
+#header ul#nav {
+	width: 820px;
+	float: left;
+}
+
+#header ul#nav li {
+	font-size: 20px;
+	float: left;
+	background: url(images/separator.gif) top left no-repeat;
+	padding-left: 2px;
+}
+
+#header ul#nav li.first {background: none;}
+#header ul#nav li.first a {margin-left: -2px;}
+#header ul#nav li.last a{
+	width: 88px;
+}
+
+
+#search_bar {
+	float: right;
+	background-color: #1b1b1b;
+	width: 822px;
+	margin-top: -20px;
+	height: 26px;
+	padding-top: 5px;
+	border-top: 1px solid #333;
+}
+
+#search_bar form {
+	float: right;
+	margin-right: 5px;
+}
+
+#search_bar input[type="text"] {
+	height: 16px;
+	width: 180px;
+}
+
+#search_bar input[type="submit"] {
+	width: 80px;
+	height: 22px;
+	background: url(images/search_btn.gif);
+	border: none;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+
+#bread_crumbs {
+	background: #2d2d2d;
+	float: left;
+	width: 945px;
+	color: #989898;
+	padding: 0 5px 0 10px;
+	border-top: 1px solid #000;
+}
+
+#bread_crumbs ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+#bread_crumbs ul li a {
+	background: url(images/bread_crumb.gif) top right no-repeat;
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 25px;
+
+}
+
+
+
+
+
+#content {
+	background: #fff;
+	width: 960px;
+	float: left;
+}
+
+#left_col {
+	float: left;
+	width: 160px;
+	padding: 20px;
+}
+
+#posts {
+	float: left;
+	width: 520px;
+	padding: 20px;	
+}
+
+#right_col {
+	float: left;
+	width: 160px;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+#footer {
+	background: url(images/footer.gif) top left repeat-x;
+	width: 960px;
+	clear: both;
+	color: #ccc;
+	height: 100px;
+	font-size: 11px;
+	line-height: 11px;
+}
+
+#footer a {	color: #ccc; }
+#footer a:hover{ color: #fff; }
+
+ul.foot_block {
+	float: left;
+	width: 204px;
+	background: url(images/separator.gif) top left no-repeat;
+	padding-top: 10px;
+	padding-left: 15px;
+	height: 99px;
+}
+
+ul.foot_block li {
+	margin-bottom: 3px;
+	background: url(http://www.nasa.gov/templateimages/redesign/modules/footer/footer_rsaquo.gif) no-repeat left 3px;
+	padding-left: 8px;
+}
+
+ul.first { background: none;}
+ul.last { width: 150px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
