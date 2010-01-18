@@ -11,6 +11,7 @@ Author URI: http://ang.st
 */
 
 @import url("css/reset.css");
+@import url("css/jake.css");
 
 body {
 	background: #000 url(http://www.nasa.gov/templateimages/redesign/global/bg_image.jpg) top left no-repeat;
@@ -161,7 +162,7 @@ ul#nav a:active {
 	padding: 20px;
 }
 
-#posts {
+#posts, #single {
 	float: left;
 	width: 520px;
 	padding: 20px;	

@@ -17,18 +17,21 @@
             </div>
             <h4 class="comments"><?= comments_popup_link('Leave a comment.', '(1) comment.', '(%) comments.'); ?></h4>
           </div>
-        <? endwhile; else : ?>
+        <? endwhile; ?>
+        <div class="postNavigation">
+          <div class="nav-left"><?php next_posts_link('Older Posts') ?></div>
+          <div class="nav-right"><?php previous_posts_link('Newer Posts') ?></div>
+        </div>
+        
+        <? else : ?>
           <div id="post-error" class="post">
             <h3 class="title">Not Found</h3>
             <div class="post_text">
-              <p>Sorry but we could not find what you were looking for. Please check the related links below to find what you were looking for.</p>
+              <p>Sorry but we could not find what you were looking for. It could possibly be lost in space.</p>
             </div>
-            <h4 class="related">Related Posts</h4>
-            <!--
-              TODO add related plugin here
-            -->
           </div>
         <? endif; ?>
+        
         </div>
         
         <?include 'rightSidebar.php'; ?>

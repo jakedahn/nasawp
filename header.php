@@ -26,9 +26,9 @@
           <li><a href="http://www.nasa.gov/connect/index.html">Connect</a></li>
         </ul>
         <div id="search_bar">
-          <form action="#" method="post" accept-charset="utf-8">
+          <form action="<?php bloginfo('home'); ?>" method="get" accept-charset="utf-8">
             <fieldset>
-              <input type="text" name="search" value="" id="search">
+              <input type="text" name="s" value="" id="search">
               <input type="submit" value="Search">          
             </fieldset>
           </form>

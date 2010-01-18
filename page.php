@@ -20,12 +20,8 @@
           <div id="post-error" class="post">
             <h3 class="title">Not Found</h3>
             <div class="post_text">
-              <p>Sorry but we could not find what you were looking for. Please check the related links below to find what you were looking for.</p>
+              <p>Sorry but we could not find what you were looking for. It could possibly be lost in space.</p>
             </div>
-            <h4 class="related">Related Posts</h4>
-            <!--
-              TODO add related plugin here
-            -->
           </div>
         <? endif; ?>
         </div>

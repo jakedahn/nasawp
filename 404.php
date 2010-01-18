@@ -3,8 +3,10 @@
 	<div id="content">
 
     <?php include 'leftSidebar.php' ?>
-
-		<h2 class="center">Sorry but we could not find what you were looking for. It could possibly be lost in space.</h2>
+    <div id="single">
+      <h3>404 Not Found</h3>
+  		<p>Sorry but we could not find what you were looking for. It could possibly be lost in space.</p>
+    </div>
 
     <?php include 'rightSidebar.php' ?>
 

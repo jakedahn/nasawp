@@ -5,7 +5,6 @@
         
         <div id="single">
           <? if (have_posts()) : while (have_posts()) : the_post(); ?>
-          <? $singlePost = get_post(the_id());?>
           <div class="postNavigation">
             <div class="nav-left"><?php previous_post_link('&laquo; %link') ?></div>
             <div class="nav-right"><?php next_post_link('%link &raquo;') ?></div>
