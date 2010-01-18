@@ -10,7 +10,7 @@
   <div class="left_block">
     <h3><?bloginfo("name")?> in the News</h3>
     <ul>
-      <?= list_links("Press Coverage") ?>
+      <?= nasa_fetch_links("Press Coverage") ?>
     </ul>
   </div>
   

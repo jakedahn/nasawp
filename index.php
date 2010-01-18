@@ -6,7 +6,8 @@
         <div id="posts">
         <? if (have_posts()) : while (have_posts()) : the_post(); ?>
           <div id="post-<?= the_id(); ?>" class="post">
-            <?= the_post_thumbnail() ?>
+            <?= the_post_thumbnail(array(100, 75), array('class' => 'thumbnail', 'align' => 'left')) ?>
+            
             <h3 class="title"><a href="<?= the_permalink() ?>" title="Permalink to <?= the_title(); ?>" rel="bookmark"><?= the_title(); ?></a></h3>
             <div class="info">
               <span class="date"><?= the_time('F j Y') ?></span>

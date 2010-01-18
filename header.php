@@ -37,7 +37,8 @@
           <ul>
             <li><a href="http://www.nasa.gov/index.html">NASA Home</a></li>
             <li><a href="http://www.nasa.gov/centers/index.html">Centers</a></li>
-            <li><a href="http://www.nasa.gov/centers/ames/home/index.html">Ames Home</a></li>
+            <? $center = explode(",", get_option("nasa_center")) ?>
+            <li><a href="<?=$center[1]?>"><?=$center[0]?></a></li>
             <li><a href="<?=bloginfo("url")?>"><?=bloginfo("name")?></a></li>
           </ul>
         </div>

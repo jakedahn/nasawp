@@ -1,9 +1,7 @@
       <div id="footer">
         <h2><a href="http://www.nasa.gov">Nasa</a></h2>
         <ul class="foot_block">
-          
-          <li>Page Last Updated: October 8, 2009</li>
-          <li>Page Editor: <?=get_option("page_editor")?></li>
+          <li>Page Editor: <?=get_option("page_editor")?> </li>
           <li>NASA Official: <?=get_option("nasa_official")?></li>
         </ul>
         <ul class="foot_block">

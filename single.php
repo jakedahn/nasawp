@@ -57,4 +57,5 @@
         <?include 'rightSidebar.php'; ?>
         
       </div>
+<? $postDate = date("F j Y", time($singlePost->post_date)) ?>
 <?get_footer()?>

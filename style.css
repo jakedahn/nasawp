@@ -1,3 +1,5 @@
+/* @override http://looce.com/nasa/wp-content/themes/nasastatic/style.css */
+
 /*
 Theme Name: NasaWP
 Theme URI: http://www.nasa.gov/
@@ -53,12 +55,12 @@ ul#nav a {
 	color: #fff;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-weight: bold;
 	display: block;
-	padding: 30px 24px 0 25px;
+	padding: 20px 24px 9px 25px;
 	height: 58px;
 	border-top: 10px solid transparent;
 	margin-top: -10px;
+	font: bold 18px verdana;
 }
 
 ul#nav a:hover {
@@ -87,7 +89,7 @@ ul#nav a:active {
 #header ul#nav li.first {background: none;}
 #header ul#nav li.first a {margin-left: -2px;}
 #header ul#nav li.last a{
-	width: 104px;
+	width: 88px;
 }
 
 
@@ -165,13 +167,31 @@ ul#nav a:active {
 	padding: 20px;	
 }
 
+.post {
+	float: left;
+}
+
+.post h3 a {
+	font-size: 24px;
+	font-family: georgia;
+	color: #444;
+}
+.post h3 a:hover {
+	color: #000;
+}
+
+
 #right_col {
 	float: left;
 	width: 160px;
 	padding: 20px;
 }
 
-
+.thumbnail {
+	margin: ;
+	margin-right: 10px;
+	margin-bottom: 70px;
+}
 
 
 
@@ -209,7 +229,12 @@ ul.first { background: none;}
 ul.last { width: 150px;}
 
 
-
+.leftalign {
+	float: left;
+}
+.rightalign {
+	float: right;
+}
 
 
 
