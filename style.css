@@ -1,3 +1,5 @@
+/* @override http://bigjohn.com/nasa/wp-content/themes/nasastatic/style.css */
+
 /* @override http://looce.com/nasa/wp-content/themes/nasastatic/style.css */
 
 /*
@@ -161,8 +163,12 @@ ul#nav a:active {
 	width: 160px;
 	padding: 20px;
 }
+.left_block h3{
+	margin-top: 5px;
+}
 
 #posts, #single {
+	margin-top: 10px;
 	float: left;
 	width: 520px;
 	padding: 20px;	
@@ -170,15 +176,31 @@ ul#nav a:active {
 
 .post {
 	float: left;
+	margin-bottom: 25px;
+	border-bottom: 1px dotted #ccc;
 }
 
 .post h3 a {
 	font-size: 24px;
-	font-family: georgia;
-	color: #444;
+	font-family: Georgia;
+	color: #1a5ea3;
 }
+.post h3 {
+	padding-bottom: 5px;
+}
+.info .date {
+	color: #666;
+	font-style: italic;
+}
+
+.comments a {
+	font-family: georgia;
+	color: #455a7c;
+}
+.comments {margin: 5px 0 5px 0;}
+
 .post h3 a:hover {
-	color: #000;
+	color: #8fbdfe;
 }
 
 
@@ -186,6 +208,12 @@ ul#nav a:active {
 	float: left;
 	width: 160px;
 	padding: 20px;
+}
+#right_col .post_text {
+	margin-bottom: 15px;
+}
+ul#news li h3.title a{
+	color: #6aaafe;
 }
 
 .thumbnail {
