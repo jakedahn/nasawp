@@ -46,6 +46,7 @@ div.postNavigation {
 #comments h3 {
 	font-size: 20px;
 	margin-top: 20px;
+	margin-bottom: 25px;
 }
 
 #comments ol {
@@ -59,12 +60,8 @@ div.postNavigation {
 	border: 1px solid #e1e1e1;
 	margin-bottom: 20px;
 	padding: 14px;
-	background: #f1f1f1;
+	background: #f3f3f3;
 
-}
-
-#comments ol li.alt .comment-info{
-	background: #f1f1f1;
 }
 
 #comments ol li:hover {
@@ -105,9 +102,21 @@ em.moderation {
 	margin-top: -15px;
 	margin-left: -15px;
 	width: 500px;
+	border-bottom: 1px solid  rgba(147,206,255,0.5);
+	margin-bottom: 15px;
 }
 
+#comments ol li.alt .comment-info{
+	background: rgba(208,255,173,0.14);
+	border-bottom: 1px solid rgba(208,255,173,0.5);
+}
 
+#comments form p{
+	margin: 0;
+}
 
+#comments form input {
+	margin-bottom: 10px;
+}
 
 
